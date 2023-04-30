@@ -2,8 +2,8 @@ POST http://localhost:5000/api/auth/register
 Content-Type: application/json
 
 {
-  "username": "npc",
-  "password": "npc"
+  "username": "np1c",
+  "password": "np1c"
 }
 
 ###
