@@ -21,7 +21,7 @@ const ProtectedRoute = () => {
     <>
       {" "}
       <NavbarMenu />
-      <Dashboard />
+      <About />
     </>
   ) : (
     <Navigate to="/login" />

@@ -61,6 +61,55 @@ function NavbarMenu() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    // <div class="vertical-nav bg-white" id="sidebar">
+    //   <div class="py-4 px-3 mb-4 bg-light">
+    //     <div class="media d-flex align-items-center">
+    //       <div class="media-body">
+    //         <h4 class="m-0">NPC WEB</h4>
+    //         <p class="font-weight-light text-muted mb-0">Web Learn</p>
+    //       </div>
+    //     </div>
+    //   </div>
+
+    //   <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">
+    //     WELCOME {username}{" "}
+    //     <Button
+    //       variant="secondary"
+    //       className="font-weight-bolder text-white"
+    //       onClick={logout}
+    //       style={{ marginLeft: "25px" }}
+    //     >
+    //       <img
+    //         src={logoutIcon}
+    //         alt="logoutIcon"
+    //         width="32"
+    //         height="32"
+    //         className="mr-2"
+    //       />
+    //     </Button>
+    //   </p>
+
+    //   <ul class="nav flex-column bg-white mb-0">
+    //     <li class="nav-item">
+    //       <a href="#" class="nav-link text-dark font-italic bg-light">
+    //         <Nav.Link to="/dashboard" as={Link} style={{ color: "Black" }}>
+    //           Dashboard
+    //         </Nav.Link>
+    //       </a>
+    //     </li>
+    //     <li class="nav-item">
+    //       <a
+    //         href="#"
+    //         class="nav-link text-dark font-italic"
+    //         style={{ background: "#f8f9fa" }}
+    //       >
+    //         <Nav.Link to="/about" as={Link} style={{ color: "Black" }}>
+    //           About
+    //         </Nav.Link>
+    //       </a>
+    //     </li>
+    //   </ul>
+    // </div>
   );
 }
 

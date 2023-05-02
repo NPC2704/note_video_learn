@@ -41,14 +41,14 @@ const AddPostModal = () => {
   return (
     <Modal show={showAddPostModal} animation={false} onHide={closeDialog}>
       <Modal.Header closeButton>
-        <Modal.Title>What do you want to learn?</Modal.Title>
+        <Modal.Title>Khóa học bạn muốn thêm!</Modal.Title>
       </Modal.Header>
       <Form onSubmit={onSubmit}>
         <Modal.Body>
           <Form.Group>
             <Form.Control
               type="text"
-              placeholder="Title"
+              placeholder="Tiêu đề"
               name="title"
               required
               aria-describedby="title-help"
@@ -63,7 +63,7 @@ const AddPostModal = () => {
             <Form.Control
               as="textarea"
               rows={3}
-              placeholder="Description"
+              placeholder="Mô tả"
               name="description"
               value={description}
               onChange={onChangeNewPostForm}
@@ -72,10 +72,11 @@ const AddPostModal = () => {
           <Form.Group>
             <Form.Control
               type="text"
-              placeholder="Youtube Tutorial URL"
+              placeholder="URL khóa học"
               name="url"
               value={url}
               onChange={onChangeNewPostForm}
+              style={{ marginTop: "15px" }}
             />
           </Form.Group>
         </Modal.Body>

@@ -7,6 +7,8 @@ import Dashboard from "./views/Dashboard";
 import About from "./views/About";
 import ProtectedRoute from "./components/routing/ProtectedRoute";
 import PostContextProvider from "./contexts/PostContext";
+import NavbarMenu from "./components/layout/NavbarMenu";
+import AboutRoute from "../src/components/routing/AboutRoute";
 function App() {
   return (
     <AuthContextProvider>
@@ -22,7 +24,7 @@ function App() {
             />
 
             <Route exact path="/dashboard" element={<ProtectedRoute />} />
-            <Route exact path="/about" element={<ProtectedRoute />} />
+            <Route exact path="/about" element={<AboutRoute />} />
           </Routes>
         </Router>
       </PostContextProvider>

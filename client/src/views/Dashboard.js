@@ -44,7 +44,7 @@ const Dashboard = () => {
   } else if (posts.length === 0) {
     body = (
       <>
-        <Card className="text-center mx-5 my-5">
+        <Card className="text-center">
           <Card.Header as="h1">Hi {username}</Card.Header>
           <Card.Body>
             <Card.Title>Welcome to LearnIt</Card.Title>
@@ -54,6 +54,7 @@ const Dashboard = () => {
             <Button
               variant="primary"
               onClick={setShowAddPostModal.bind(this, true)}
+              style={{ background: "#aecec8", border: "#aecec8" }}
             >
               LearnIt!
             </Button>
@@ -78,10 +79,21 @@ const Dashboard = () => {
           overlay={<Tooltip>Add a new thing to learn</Tooltip>}
         >
           <Button
-            className="btn-floating"
             onClick={setShowAddPostModal.bind(this, true)}
+            style={{
+              position: "absolute",
+              bottom: "20px",
+              right: "20px",
+              height: "40px",
+              width: "40px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              background: "white",
+              border: "none",
+            }}
           >
-            <img src={addIcon} alt="add-post" width="60" height="60" />
+            <img src={addIcon} alt="add-post" width="30" height="30" />
           </Button>
         </OverlayTrigger>
       </>

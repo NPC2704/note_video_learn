@@ -11,7 +11,7 @@ const About = () => {
           href="https://portfolio-9eab0.web.app/"
           size="lg"
         >
-          Visit my channel for more tutorials
+          Những điều bạn về tôi
         </Button>
       </Col>
     </Row>
