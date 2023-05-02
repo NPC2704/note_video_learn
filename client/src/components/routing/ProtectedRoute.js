@@ -1,9 +1,8 @@
-import { Route, Navigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
 import Spinner from "react-bootstrap/Spinner";
 import Dashboard from "../../views/Dashboard";
-import About from "../../views/About";
 import NavbarMenu from "../layout/NavbarMenu";
 const ProtectedRoute = () => {
   const {
