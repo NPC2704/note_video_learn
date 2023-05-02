@@ -39,7 +39,7 @@ const AddPostModal = () => {
   };
 
   return (
-    <Modal show={showAddPostModal} animation={false} onHide={closeDialog}>
+    <Modal show={showAddPostModal} onHide={closeDialog}>
       <Modal.Header closeButton>
         <Modal.Title>Khóa học bạn muốn thêm!</Modal.Title>
       </Modal.Header>
