@@ -21,12 +21,12 @@ Content-Type: application/json
 
 POST http://localhost:5000/api/post
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDRjNmQ0MmY2MmE5MzljNTc2ZmNiMjkiLCJpYXQiOjE2ODI3MzAzMDZ9.3hDWcOABrPeQEr_Zkgu91t0Aucuy2uTQ9a-mjhgpANA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDRjNjQ2NWU4OGE5NzEyYmJjNjg4N2YiLCJpYXQiOjE2ODMwMTIxNjF9.ksqK4zkJwNZWFF_ZgR3x2lCHeg-_ic1ecN8FnqzgenQ
 
 {
-  "title": "React",
-  "description": "React",
-  "url": "react.com",
+  "title": "NODEJS",
+  "description": "NODEJS",
+  "url": "NODEJS.com",
   "status": "TO LEARN"
 }
 

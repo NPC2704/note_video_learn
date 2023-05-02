@@ -5,7 +5,7 @@ import Spinner from "react-bootstrap/Spinner";
 import Dashboard from "../../views/Dashboard";
 import About from "../../views/About";
 import NavbarMenu from "../layout/NavbarMenu";
-const ProtectedRoute = ({ components }) => {
+const ProtectedRoute = () => {
   const {
     authState: { authLoading, isAuthenticated },
   } = useContext(AuthContext);
