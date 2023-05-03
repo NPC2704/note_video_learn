@@ -15,7 +15,6 @@ const Auth = ({ authRoutes }) => {
   if (authLoading)
     body = (
       <div className="d-flex justify-content-center mt-2">
-        <h1>s</h1>
         <Spinner animation="border" variant="info" />
       </div>
     );
