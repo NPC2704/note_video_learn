@@ -5,7 +5,7 @@ const dbConnect = require("./config/dbconnection");
 const initRoutes = require("./routes");
 const cors = require("cors");
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
 
 // doc duoc data kieu json
 app.use(express.json());
