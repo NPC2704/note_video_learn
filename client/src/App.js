@@ -21,7 +21,7 @@ function App() {
             />
 
             <Route exact path="/dashboard" element={<ProtectedRoute />} />
-            {/* <Route exact path="/about" element={<AboutRoute />} /> */}
+            <Route exact path="/about" element={<AboutRoute />} />
           </Routes>
         </Router>
       </PostContextProvider>
